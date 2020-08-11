@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.images{
+	width:95%;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	align-items: stretch;
+	justify-content: flex-start;
+	padding: 10px;
+	margin: 10px;
+}
+.images li img{
+	margin-top: 20px;
+	margin-left:20px;
+	height: 200px;
+}
+.header{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	border-bottom: 1px rgba(0, 0, 0, 0.5) solid;
+	margin: 0px;
+}
+.header p a{
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 25px;	
+	margin-right: 40px;
+}
+.busca section{
+	background-image: url(img/japanese-cherry-trees-324175_640.jpg);
+	background-size: cover;
+	display: block;
+	background-repeat: no-repeat;
+}
